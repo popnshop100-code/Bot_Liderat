@@ -37,7 +37,7 @@ threading.Thread(target=run_server, daemon=True).start()
 logging.basicConfig(format="%(asctime)s - %(levelname)s - %(message)s", level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN = os.getenv("TELEGRAM_TOKEN", "TU_TOKEN_AQUI")
+TOKEN = os.getenv("8650563136:AAEGC5CrmW0fYhfPlf_ea1Sa85UU2eAY4TI", "8650563136:AAEGC5CrmW0fYhfPlf_ea1Sa85UU2eAY4TI")
 
 # ── ESTADOS DINÁMICA ─────────────────────────────────────────
 (
